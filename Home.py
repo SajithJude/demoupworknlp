@@ -3,10 +3,9 @@ import os
 import openai
 import pandas as pd  
 
-
 df = pd.read_csv("data.csv")
 
-st.table(df)
+
 
 openai.api_key = os.getenv("APIKEY")
 
@@ -24,3 +23,5 @@ if st.button("Search"):
     )
     out=  response.choices[0].text
     st.write(out)
+
+st.table(df)
