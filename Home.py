@@ -2,7 +2,7 @@ import streamlit as st
 import os 
 import openai
 
-
+openai.api_key = os.getenv("APIKEY")
 
 inp = st.text_input("Enter you query")
 if st.button("Search"):
