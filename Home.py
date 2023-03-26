@@ -11,7 +11,7 @@ openai.api_key = os.getenv("APIKEY")
 
 inp = st.text_input("Enter you query")
 if st.button("Search"):
-    input = str(source) + "  :"+ str(input)
+    input = str(inp) + " : Use the above query to and filter the most suitable options in the following dataset : "+ str(df)
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=input,
@@ -24,4 +24,4 @@ if st.button("Search"):
     out=  response.choices[0].text
     st.write(out)
 
-st.table(df)
+# st.table(df)
