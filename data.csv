@@ -1,0 +1,41 @@
+property_type,location,bedrooms,bathrooms,rent_per_month,distance_to_train_station,garden,driveway
+Apartment,London,1,1,800,5,True,False
+Apartment,London,1,1,1000,10,False,False
+Apartment,London,2,1,1200,5,True,True
+House,South Kensington,3,2,4000,20,True,True
+House,South Kensington,3,2,3500,15,True,True
+House,South Kensington,4,3,5500,5,True,True
+Apartment,London,3,2,1800,15,False,False
+Apartment,London,2,1,950,5,False,False
+House,South Kensington,4,4,7000,10,True,True
+House,South Kensington,5,3,8000,5,True,True
+House,Kensington,3,2,4500,5,True,True
+Apartment,Chelsea,2,1,1400,5,True,False
+Apartment,Chelsea,1,1,1200,5,False,False
+House,Kensington,5,4,10000,10,True,True
+Apartment,Chelsea,3,2,2500,5,True,True
+Apartment,Notting Hill,1,1,1100,10,True,False
+House,Kensington,4,3,7000,10,True,True
+House,Chelsea,2,1,3200,5,True,True
+Apartment,Notting Hill,2,1,1600,5,False,False
+Apartment,Notting Hill,3,2,2200,10,True,False
+House,Chelsea,3,2,5000,5,True,True
+House,Kensington,2,1,3000,10,True,False
+Apartment,Notting Hill,1,1,1000,10,False,False
+Apartment,Kensington,2,2,2000,5,True,False
+House,Notting Hill,4,3,8000,5,True,True
+House,Chelsea,5,4,12000,5,True,True
+Apartment,Kensington,1,1,900,5,False,False
+Apartment,Kensington,2,1,1400,5,True,False
+House,Notting Hill,3,2,6000,10,True,True
+Apartment,Chelsea,1,1,1100,10,True,False
+Apartment,Notting Hill,2,2,1800,5,True,False
+House,Kensington,3,3,8500,5,True,True
+House,Notting Hill,2,2,4500,10,True,True
+Apartment,Kensington,1,1,1000,10,False,False
+Apartment,Notting Hill,1,1,950,5,False,False
+House,Notting Hill,4,4,10000,5,True,True
+House,Chelsea,3,2,6000,5,True,True
+Apartment,Kensington,3,2,3000,5,True,True
+Apartment,Notting Hill,2,1,1700,5,True,False
+House,Kensington,4,4,9000,10,True,True
